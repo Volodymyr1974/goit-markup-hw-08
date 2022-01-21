@@ -1409,7 +1409,7 @@ img {
   border: none;
   top: 50%;
   left: 50%;
-  background-color: var(--white-color-bgc-text);
+  background-color: #FFFFFF;
   -webkit-transform: translate(-50%, -50%) scale(1);
       -ms-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
