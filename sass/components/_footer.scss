@@ -4,15 +4,15 @@
     }
     
     .footer__container {
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        @media screen and (min-width: $mobile) {
-            width: $mobile;
-        }
+        // // padding-left: 15px;
+        // // padding-right: 15px;
+        // // margin-left: auto;
+        // // margin-right: auto;
+        // @media screen and (min-width: $mobile) {
+        //     width: $mobile;
+        // }
         @media screen and (min-width: $tablet) {
-            width: $tablet;
+            // width: $tablet;
             display: flex;
             flex-wrap: wrap;
             align-items: baseline;
@@ -20,9 +20,9 @@
         @media screen and (min-width: $tablet) and (max-width: 1199px) {
             justify-content: space-around;
         }
-        @media screen and (min-width: $desktop) {
-            width: $desktop;
-        }
+        // @media screen and (min-width: $desktop) {
+        //     width: $desktop;
+        // }
     }
     
     .footer__contacts {
