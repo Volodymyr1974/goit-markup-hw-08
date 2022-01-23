@@ -189,15 +189,29 @@
                 <ul class="team-member ">
 
                     <li class="team-member__item ">
-                        <img srcset="
-                        ./images/team1mobile/mob-team1.jpg 450w,
-                        ./images/team1mobile/mob-team1@2x.jpg 900w,
-                        ./images/team1tab/team1-tab.jpg 354w,
-                        ./images/team1tab/team1-tab@2x.jpg 708w,
-                        ./images/team1des/team1-des.jpg 270w,
-                        ./images/team1des/team1-des@2x.jpg 540w
+                        <!-- <img srcset="
+                       
+                       
+                        
+                       
+                        ./images/team1des/team1-270.jpg 270w,
+                        ./images/team1tab/team1-354.jpg 354w,
+                        ./images/team1mobile/team1-450.jpg 450w,
+                        ./images/team1des/team1-540.jpg 540w,
+                        ./images/team1tab/team1-708.jpg 708w, 
+                        ./images/team1mobile/team1-900.jpg 900w
 
-                        " src="./images/team1des/team1-des.jpg" class="team-member__img " alt="портрет " sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw">
+
+                        " src="./images/team1des/team1-des.jpg" class="team-member__img " alt="портрет " sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw"> -->
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./images/team1des/team1-des.jpg 1x,
+                        ./images/team1des/team1-des@2x.jpg 2x">
+                            <source media="(min-width: 768px)" srcset="./images/team1tab/team1-tab.jpg 1x,
+                        ./images/team1tab/team1-tab@2x.jpg 2x">
+                            <source media="(max-width: 767px)" srcset="./images/team1mobile/team1-mob.jpg 1x,
+                        ./images/team1mobile/team1-mob@2x.jpg 2x">
+                            <img src="./images/team1mobile/team1-mob.jpg" class="team-member__img " alt="портрет " />
+                        </picture>
                         <div class="team-member__box ">
                             <h3 class="team-member__title ">Игорь Демьяненко</h3>
                             <p class="team-member__text ">Product Designer</p>
@@ -240,7 +254,7 @@
                     </li>
 
                     <li class="team-member__item ">
-                        <img srcset="
+                        <!-- <img srcset="
                         ./images/team2mobile/mob-team2.jpg 450w,
                         ./images/team2mobile/mob-team2@2x.jpg 900w,
                         ./images/team2tab/team2-tab.jpg 354w,
@@ -248,7 +262,16 @@
                         ./images/team2des/team2-des.jpg 270w,
                         ./images/team2des/team2-des@2x.jpg 540w
 
-                        " src="./images/team2des/team2-des.jpg" class="team-member__img " alt="портрет " sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw">
+                        " src="./images/team2des/team2-des.jpg" class="team-member__img " alt="портрет " sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw"> -->
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./images/team2des/team2-des.jpg 1x,
+                        ./images/team2des/team2-des@2x.jpg 2x">
+                            <source media="(min-width: 768px)" srcset="./images/team2tab/team2-tab.jpg 1x,
+                        ./images/team2tab/team2-tab@2x.jpg 2x">
+                            <source media="(max-width: 767px)" srcset="./images/team2mobile/team2-mob.jpg 1x,
+                        ./images/team2mobile/team2-mob@2x.jpg 2x">
+                            <img src="./images/team2mobile/team2-mob.jpg" class="team-member__img " alt="портрет " />
+                        </picture>
                         <div class="team-member__box ">
                             <h3 class="team-member__title ">Ольга Репина</h3>
                             <p class="team-member__text ">Frontend Developer</p>
@@ -290,7 +313,7 @@
                     </li>
 
                     <li class="team-member__item ">
-                        <img srcset="
+                        <!-- <img srcset="
                         ./images/team3mobile/mob-team3.jpg 450w,
                         ./images/team3mobile/mob-team3@2x.jpg 900w,
                         ./images/team3tab/team3-tab.jpg 354w,
@@ -298,7 +321,17 @@
                         ./images/team3des/team3-des.jpg 270w,
                         ./images/team3des/team3-des@2x.jpg 540w
 
-                        " src="./images/team3des/team3-des.jpg" class="team-member__img " alt="портрет " sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw">
+                        " src="./images/team3des/team3-des.jpg" class="team-member__img " alt="портрет " sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw"> -->
+
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./images/team3des/team3-des.jpg 1x,
+                        ./images/team3des/team3-des@2x.jpg 2x">
+                            <source media="(min-width: 768px)" srcset="./images/team3tab/team3-tab.jpg 1x,
+                        ./images/team3tab/team3-tab@2x.jpg 2x">
+                            <source media="(max-width: 767px)" srcset="./images/team3mobile/team3-mob.jpg 1x,
+                        ./images/team3mobile/team3-mob@2x.jpg 2x">
+                            <img src="./images/team3mobile/team3-mob.jpg" class="team-member__img " alt="портрет " />
+                        </picture>
                         <div class="team-member__box ">
                             <h3 class="team-member__title ">Николай Тарасов</h3>
                             <p class="team-member__text ">Marketing</p>
@@ -340,7 +373,7 @@
                     </li>
 
                     <li class="team-member__item ">
-                        <img srcset="
+                        <!-- <img srcset="
                         ./images/team4mobile/mob-team4.jpg 450w,
                         ./images/team4mobile/mob-team4@2x.jpg 900w,
                         ./images/team4tab/team4-tab.jpg 354w,
@@ -348,7 +381,16 @@
                         ./images/tean4des/team4-des.jpg 270w,
                         ./images/tean4des/team4-des@2x.jpg 540w
 
-                        " src="./images/tean4des/team4-des.jpg" class="team-member__img " alt="портрет " sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw">
+                        " src="./images/tean4des/team4-des.jpg" class="team-member__img " alt="портрет " sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw"> -->
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./images/team4des/team4-des.jpg 1x,
+                        ./images/team4des/team4-des@2x.jpg 2x">
+                            <source media="(min-width: 768px)" srcset="./images/team4tab/team4-tab.jpg 1x,
+                        ./images/team4tab/team4-tab@2x.jpg 2x">
+                            <source media="(max-width: 767px)" srcset="./images/team4mobile/team4-mob.jpg 1x,
+                        ./images/team4mobile/team4-mob@2x.jpg 2x">
+                            <img src="./images/team4mobile/team4-mob.jpg" class="team-member__img " alt="портрет " />
+                        </picture>
                         <div class="team-member__box ">
                             <h3 class="team-member__title ">Михаил Ермаков</h3>
                             <p class="team-member__text ">UI Designer</p>

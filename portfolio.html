@@ -25,7 +25,7 @@
                 Web<span class="logo__end">Studio</span>
             </a>
                 <button type="button" class="page-header__btn color-effect " aria-expanded="false" data-menu-button>
-                <!-- <button type="button" class="page-header__btn  " aria-expanded="false" data-modal-open> -->
+            
                 <svg width='40' height='40' aria-label="Переключатель мобильного меню">
                     
                         <use class="page-header__icon--cross" href="./images/sprite2.svg#cross" ></use>
@@ -105,15 +105,16 @@
                         <a class="card-set__link" href="">
 
                             <div class="card-set__box">
-                                <img srcset="
-                        ./images/webmob1/web-mob1.jpg 450w,
-                        ./images/webmob1/web-mob1@2x.jpg 900w,
-                        ./images/webtab1/web1-tab.jpg 354w,
-                        ./images/webtab1/web1-tab@2x.jpg 708w,
-                        ./images/web1des/web1-des.jpg 370w,
-                        ./images/web1des/web1-des@2x.jpg 740w
 
-                        " src="./images/webtab1/web1-tab.jpg" alt="виды работ" sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw">
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="./images/web1des/web1-des.jpg 1x,
+                        ./images/web1des/web1-des@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/webtab1/web1-tab.jpg 1x,
+                        ./images/webtab1/web1-tab@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/webmob1/web1-mob.jpg 1x,
+                        ./images/webmob1/web1-mob@2x.jpg 2x">
+                                    <img src="./images/webmob1/web1-mob.jpg" class="team-member__img " alt="виды работ" />
+                                </picture>
                                 <div class="card-set__overlay">
                                     <p class="card-set__description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                                 </div>
@@ -129,15 +130,15 @@
                     <li class="card-set__item">
                         <a class="card-set__link" href="">
                             <div class="card-set__box">
-                                <img srcset="
-                        ./images/designmob1/design-mob1.jpg 450w,
-                        ./images/designmob1/design-mob1@2x.jpg 900w,
-                        ./images/design1tab/design1-tab.jpg 354w,
-                        ./images/design1tab/design1-tab@2x.jpg 708w,
-                        ./images/design1des/design1-des.jpg 370w,
-                        ./images/design1des/design1-des@2x.jpg 740w
-
-                        " src="./images/design1tab/design1-tab.jpg" alt="виды работ" sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw">
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="./images/design1des/design1-des.jpg 1x,
+                        ./images/design1des/design1-des@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/design1tab/design1-tab.jpg 1x,
+                        ./images/design1tab/design1-tab@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/designmob1/design1-mob.jpg 1x,
+                        ./images/designmob1/design1-mob@2x.jpg 2x">
+                                    <img src="./images/designmob1/design1-mob.jpg" class="team-member__img " alt="виды работ" />
+                                </picture>
                                 <div class="card-set__overlay">
                                     <p class="card-set__description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                                 </div>
@@ -151,15 +152,16 @@
                     <li class="card-set__item">
                         <a class="card-set__link" href="">
                             <div class="card-set__box">
-                                <img srcset="
-                        ./images/aplmob1/apl-mob1.jpg 450w,
-                        ./images/aplmob1/apl-mob1@2x.jpg 900w,
-                        ./images/aapl1tab/apl1-tab.jpg 354w,
-                        ./images/aapl1tab/apl1-tab@2x.jpg 708w,
-                        ./images/apl1des/apl1-des.jpg 370w,
-                        ./images/apl1des/apl1-des@2x.jpg 740w
 
-                        " src="./images/aapl1tab/apl1-tab.jpg" alt="виды работ" sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw">
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="./images/apl1des/apl1-des.jpg 1x,
+                        ./images/apl1des/apl1-des@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/aapl1tab/apl1-tab.jpg 1x,
+                        ./images/aapl1tab/apl1-tab@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/aplmob1/apl1-mob.jpg 1x,
+                        ./images/aplmob1/apl1-mob@2x.jpg 2x">
+                                    <img src="./images/aplmob1/apl1-mob.jpg" class="team-member__img " alt="виды работ" />
+                                </picture>
                                 <div class="card-set__overlay">
                                     <p class="card-set__description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                                 </div>
@@ -173,15 +175,16 @@
                     <li class="card-set__item">
                         <a class="card-set__link" href="">
                             <div class="card-set__box">
-                                <img srcset="
-                        ./images/marketmob1/market-mob1.jpg 450w,
-                        ./images/marketmob1/market-mob1@2x.jpg 900w,
-                        ./images/market1tab/market1-tab.jpg 354w,
-                        ./images/market1tab/market1-tab@2x.jpg 708w,
-                        ./images/market1des/market1-des.jpg 370w,
-                        ./images/market1des/market1-des@2x.jpg 740w
 
-                        " src="./images/market1tab/market1-tab.jpg" alt="виды работ" sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw">
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="./images/market1des/market1-des.jpg 1x,
+                        ./images/market1des/market1-des@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/market1tab/market1-tab.jpg 1x,
+                        ./images/market1tab/market1-tab@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/marketmob1/market1-mob.jpg 1x,
+                        ./images/marketmob1/market1-mob@2x.jpg 2x">
+                                    <img src="./images/marketmob1/market1-mob.jpg" class="team-member__img " alt="виды работ" />
+                                </picture>
                                 <div class="card-set__overlay">
                                     <p class="card-set__description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                                 </div>
@@ -195,15 +198,16 @@
                     <li class="card-set__item">
                         <a class="card-set__link" href="">
                             <div class="card-set__box">
-                                <img srcset="
-                        ./images/aplmob2/apl-mob2.jpg 450w,
-                        ./images/aplmob2/apl-mob2@2x.jpg 900w,
-                        ./images/apl2tab/apl2-tab.jpg 354w,
-                        ./images/apl2tab/apl2-tab@2x.jpg 708w,
-                        ./images/apl2des/apl2-des.jpg 370w,
-                        ./images/apl2des/apl2-des@2x.jpg 740w
 
-                        " src="./images/apl2tab/apl2-tab.jpg" alt="виды работ" sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw">
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="./images/apl2des/apl2-des.jpg 1x,
+                        ./images/apl2des/apl2-des@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/apl2tab/apl2-tab.jpg 1x,
+                        ./images/apl2tab/apl2-tab@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/aplmob2/apl2-mob.jpg 1x,
+                        ./images/aplmob2/apl2-mob@2x.jpg 2x">
+                                    <img src="./images/aplmob2/apl2-mob.jpg" class="team-member__img " alt="виды работ" />
+                                </picture>
                                 <div class="card-set__overlay">
                                     <p class="card-set__description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                                 </div>
@@ -217,15 +221,16 @@
                     <li class="card-set__item">
                         <a class="card-set__link" href="">
                             <div class="card-set__box">
-                                <img srcset="
-                        ./images/webmob2/web-mob2.jpg 450w,
-                        ./images/webmob2/web-mob2@2x.jpg 900w,
-                        ./images/web2tab/web2-tab.jpg 354w,
-                        ./images/web2tab/web2-tab@2x.jpg 708w,
-                        ./images/web2des/web2-des.jpg 370w,
-                        ./images/web2des/web2-des@2x.jpg 740w
 
-                        " src="./images/web2tab/web2-tab.jpg" alt="виды работ" sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw">
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="./images/web2des/web2-des.jpg 1x,
+                        ./images/web2des/web2-des@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/web2tab/web2-tab.jpg 1x,
+                        ./images/web2tab/web2-tab@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/webmob2/web2-mob.jpg 1x,
+                        ./images/webmob2/web2-mob@2x.jpg 2x">
+                                    <img src="./images/webmob2/web2-mob.jpg" class="team-member__img " alt="виды работ" />
+                                </picture>
                                 <div class="card-set__overlay">
                                     <p class="card-set__description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                                 </div>
@@ -239,15 +244,16 @@
                     <li class="card-set__item">
                         <a class="card-set__link" href="">
                             <div class="card-set__box">
-                                <img srcset="
-                        ./images/designmob2/design-mob2.jpg 450w,
-                        ./images/designmob2/design-mob2@2x.jpg 900w,
-                        ./images/design2tab/design2-tab.jpg 354w,
-                        ./images/design2tab/design2-tab@2x.jpg 708w,
-                        ./images/design2des/design2-des.jpg 370w,
-                        ./images/design2des/design2-des@2x.jpg 740w
 
-                        " src="./images/design2tab/design2-tab.jpg" alt="виды работ" sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw">
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="./images/design2des/design2-des.jpg 1x,
+                        ./images/design2des/design2-des@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/design2tab/design2-tab.jpg 1x,
+                        ./images/design2tab/design2-tab@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/designmob2/design2-mob.jpg 1x,
+                        ./images/designmob2/design2-mob@2x.jpg 2x">
+                                    <img src="./images/designmob2/design2-mob.jpg" class="team-member__img " alt="виды работ" />
+                                </picture>
                                 <div class="card-set__overlay">
                                     <p class="card-set__description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                                 </div>
@@ -261,43 +267,45 @@
                     <li class="card-set__item">
                         <a class="card-set__link" href="">
                             <div class="card-set__box">
-                                <img srcset="
-                        ./images/marketmob2/market-mob2.jpg 450w,
-                        ./images/marketmob2/market-mob2@2x.jpg 900w,
-                        ./images/market2tab/market2-tab.jpg 354w,
-                        ./images/market2tab/market2-tab@2x.jpg 708w,
-                        ./images/market2des/market2-des.jpg 370w,
-                        ./images/market2des/market2-des@2x.jpg 740w
 
-                        " src="./images/market2tab/market2-tab.jpg" alt="виды работ" sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw">
-                                <div class="card-set__overlay">
-                                    <p class="card-set__description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                <picture>
+                                    <source media="(min-width: 1200px)" srcset="./images/market2des/market2-des.jpg 1x,
+                        ./images/market2des/market2-des@2x.jpg 2x">
+                                    <source media="(min-width: 768px)" srcset="./images/market2tab/market2-tab.jpg 1x,
+                        ./images/market2tab/market2-tab@2x.jpg 2x">
+                                    <source media="(max-width: 767px)" srcset="./images/marketmob2/market2-mob.jpg 1x,
+                        ./images/marketmob2/market2-mob@2x.jpg 2x">
+                                    <img src="./images/marketmob2/market2-mob.jpg" class="team-member__img " alt="виды работ" />
+                                </picture>
+                                <div class="card-set__overlay ">
+                                    <p class="card-set__description ">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                                 </div>
                             </div>
-                            <div class="card-set__block">
-                                <h2 class="card-set__title">Проект LAB</h2>
+                            <div class="card-set__block ">
+                                <h2 class="card-set__title ">Проект LAB</h2>
                                 <p class="card-set__text ">Маркетинг</p>
                             </div>
                         </a>
                     </li>
-                    <li class="card-set__item">
-                        <a class="card-set__link" href="">
-                            <div class="card-set__box">
-                                <img srcset="
-                        ./images/aplmob3/apl-mob3.jpg 450w,
-                        ./images/aplmob3/apl-mob3@2x.jpg 900w,
-                        ./images/apl3tab/apl3-tab.jpg 354w,
-                        ./images/apl3tab/apl3-tab@2x.jpg 708w,
-                        ./images/apl3des/apl3-des.jpg 370w,
-                        ./images/apl3des/apl3-des@2x.jpg 740w
+                    <li class="card-set__item ">
+                        <a class="card-set__link " href=" ">
+                            <div class="card-set__box ">
 
-                        " src="./images/apl3tab/apl3-tab.jpg" alt="виды работ" sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw">
-                                <div class="card-set__overlay">
-                                    <p class="card-set__description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                <picture>
+                                    <source media="(min-width: 1200px) " srcset="./images/apl3des/apl3-des.jpg 1x,
+                                     ./images/apl3des/apl3-des@2x.jpg 2x ">
+                                    <source media="(min-width: 768px) " srcset="./images/apl3tab/apl3-tab.jpg 1x,
+                                     ./images/apl3tab/apl3-tab@2x.jpg 2x ">
+                                    <source media="(max-width: 767px) " srcset="./images/aplmob3/apl3-mob.jpg 1x,
+                                     ./images/aplmob3/apl3-mob@2x.jpg 2x ">
+                                    <img src="./images/aplmob3/apl3-mob.jpg " class="team-member__img " alt="виды работ" />
+                                </picture>
+                                <div class="card-set__overlay ">
+                                    <p class="card-set__description ">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                                 </div>
                             </div>
-                            <div class=" card-set__block">
-                                <h2 class="card-set__title">Growing Business</h2>
+                            <div class=" card-set__block ">
+                                <h2 class="card-set__title ">Growing Business</h2>
                                 <p class="card-set__text ">Приложение</p>
                             </div>
                         </a>
@@ -307,51 +315,51 @@
         </section>
     </main>
     <!-- Футер -->
-    <footer class="footer">
-        <div class="footer__container container">
+    <footer class="footer ">
+        <div class="footer__container container ">
             <div class="footer__contacts ">
-                <a href="./index.html" class="logo footer__logo">
+                <a href="./index.html " class="logo footer__logo ">
                 Web<span class="logo__end logo__end--inverse ">Studio</span>
         </a>
-                <address class="address">
-          <p class="address__text"> Киев, пр-т Леси Украинки, 26</p>
+                <address class="address ">
+          <p class="address__text "> Киев, пр-т Леси Украинки, 26</p>
           <ul class="address__list ">
-            <li class="address__item"> 
-                <a href="mailto:info@devstudio.com" class="address__link  color-effect">info@devstudio.com</a> </li>
-            <li class="address__item">
-                 <a href="tel:+380961111111" class="address__link color-effect ">+38 096 111 11 11</a> </li>
+            <li class="address__item "> 
+                <a href="mailto:info@devstudio.com " class="address__link color-effect ">info@devstudio.com</a> </li>
+            <li class="address__item ">
+                 <a href="tel:+380961111111 " class="address__link color-effect ">+38 096 111 11 11</a> </li>
             </ul>
                 </address>
             </div>
-            <div class="action">
+            <div class="action ">
                 <h2 class="action__title ">присоединяйтесь</h2>
-                <ul class="socials">
-                    <Li class="socials__items">
-                        <a class="socials__link footer__socials" href="#">
+                <ul class="socials ">
+                    <Li class="socials__items ">
+                        <a class="socials__link footer__socials " href="# ">
                             <svg width='20' height='20'>
                                             <use href='./images/sprite.svg#instagram'></use>
                                         </svg>
 
                         </a>
                     </Li>
-                    <Li class="socials__items">
-                        <a class="socials__link footer__socials" href="#">
+                    <Li class="socials__items ">
+                        <a class="socials__link footer__socials " href="# ">
                             <svg width='20' height='20'>
                                             <use href='./images/sprite.svg#twitter'></use>
                                         </svg>
 
                         </a>
                     </Li>
-                    <Li class="socials__items">
-                        <a class="socials__link footer__socials" href="#">
+                    <Li class="socials__items ">
+                        <a class="socials__link footer__socials " href="# ">
                             <svg width='20' height='20'>
                                             <use href='./images/sprite.svg#facebook'></use>
                                         </svg>
 
                         </a>
                     </Li>
-                    <Li class="socials__items">
-                        <a class="socials__link footer__socials" href="#">
+                    <Li class="socials__items ">
+                        <a class="socials__link footer__socials " href="# ">
                             <svg width='20' height='20'>
                                             <use href='./images/sprite.svg#linkedin'></use>
                                         </svg>
@@ -363,15 +371,15 @@
 
 
             </div>
-            <div class="subscription">
+            <div class="subscription ">
                 <h2 class="subscription__title ">Подпишитесь на рассылку</h2>
-                <form class="footer-form" autocomplete="off">
-                    <label class="footer-form__label">
-                        <input class="footer-form__input" type="email" name="email" placeholder="E-mail">
+                <form class="footer-form " autocomplete="off ">
+                    <label class="footer-form__label ">
+                        <input class="footer-form__input " type="email " name="email " placeholder="E-mail ">
                     </label>
-                    <button class="footer-form__btn" type="submit">
+                    <button class="footer-form__btn " type="submit ">
                         <span >Подписаться</span>
-                        <svg class="footer-form__icon" width='24' height='24'>
+                        <svg class="footer-form__icon " width='24' height='24'>
                                             <use href='./images/icons.svg#iconsend'></use>
                                         </svg>
                     </button>
@@ -383,7 +391,7 @@
 
         </div>
     </footer>
-    <script src="./js/menu.js"></script>
+    <script src="./js/menu.js "></script>
 </body>
 
 </html>
